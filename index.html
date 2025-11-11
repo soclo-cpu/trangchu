@@ -4,21 +4,32 @@
     <meta charset="UTF-8">
     <title>Trang Chủ</title>
     <style>
-        /* Định nghĩa kiểu cho toàn bộ phần body */
+        /* Thiết lập màu nền vàng cho toàn bộ trang */
         body {
-            /* Thay đổi màu chữ thành màu đỏ */
-            color: red;
-            /* Thay đổi font chữ thành Times New Roman */
+            background-color: yellow;
+            /* Thiết lập font chữ Times New Roman cho toàn bộ nội dung */
             font-family: "Times New Roman", Times, serif;
+            /* Thiết lập màu chữ đỏ mặc định cho toàn bộ nội dung, trừ các thẻ <a> */
+            color: red; 
+        }
+
+        /* Thiết lập màu chữ đỏ và font Times New Roman cho các liên kết (<a>) */
+        a {
+            color: red;
+            text-decoration: none; /* Tùy chọn: loại bỏ gạch chân cho liên kết */
         }
     </style>
 </head>
 <body>
-    <h1>Trang Chủ</h1>
-    <p>Nó đã được sửa thành màu đỏ.</p>
 
-    <p><a href="https://soclo-cpu.github.io/dichvuu/" style="color: red;">Dịch Vụ.</a></p>
-    <p><a href="https://soclo-cpu.github.io/thongtin/" style="color: red;">Thông Tin.</a></p>
-    <p><a href="https://soclo-cpu.github.io/web-Phat/" style="color: red;">Trang Chính.</a></p>
+    <h1>Trang Chủ </h1>
+    <p>Và Đây Cũng Chính Là Trang Chủ.</p>
+
+    <p><a href="https://soclo-cpu.github.io/dichvuu/">Dịch Vụ.</a></p>
+
+    <p><a href="https://soclo-cpu.github.io/thongtin/">Thông Tin.</a></p>
+
+    <p><a href="https://soclo-cpu.github.io/web-Phat/">Trang Chính.</a></p>
+
 </body>
 </html>
